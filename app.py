@@ -5,9 +5,13 @@ import joblib
 model = joblib.load('final_svm_model.pkl')
 
 st.title("🌸 Iris Flower Classification 🌸")  # Modify the heading
-st.header("Predict the species of an Iris flower")  # Modify the subheading
+
+# st.header("Predict the species of an Iris flower")  # Modify the subheading
+# Smaller subheading using Markdown
+st.markdown("<h3 style='text-align: center;'>Predict the species of an Iris flower</h3>", unsafe_allow_html=True)
+
 # Add author name
-st.write("### By Priyanshi Negi") 
+st.markdown("<h5 style='text-align: center; color: grey;'>By Priyanshi Negi</h5>", unsafe_allow_html=True)
 
 st.write("Enter the flower details:")
 
