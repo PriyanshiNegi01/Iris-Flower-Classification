@@ -5,10 +5,10 @@ import joblib
 model = joblib.load('final_svm_model.pkl')
 
 # Centered Title
-st.markdown("<h2 style='text-align: center; color: #4CAF50;'>🌸 Iris Flower Classification 🌸</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>🌸 Iris Flower Classification 🌸</h2>", unsafe_allow_html=True)
 
 # Subheading
-st.markdown("<h4 style='text-align: center; color: #555;'>Predict the species of an Iris flower</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align: center;'>Predict the species of an Iris flower</h4>", unsafe_allow_html=True)
 
 # Author Name
 st.markdown("<p style='text-align: center; font-size: 14px; color: grey;'>By Priyanshi Negi</p>", unsafe_allow_html=True)
