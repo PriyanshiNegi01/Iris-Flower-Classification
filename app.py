@@ -4,7 +4,11 @@ import joblib
 # Load the trained model
 model = joblib.load('final_svm_model.pkl')
 
-st.title("Iris Flower Classification")
+st.title("🌸 Iris Flower Classification 🌸")  # Modify the heading
+st.header("Predict the species of an Iris flower")  # Modify the subheading
+# Add author name
+st.write("### By Priyanshi Negi") 
+
 st.write("Enter the flower details:")
 
 # Input fields
