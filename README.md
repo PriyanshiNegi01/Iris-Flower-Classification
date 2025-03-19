@@ -5,7 +5,7 @@
 
 ## 📌 **Project Overview**  
 
-This project is a machine learning web application that predicts the species of an Iris flower based on its sepal and petal dimensions. The app is built using **Streamlit** and an **SVM (Support Vector Machine) model** trained on the **Iris dataset**.  
+This project is a **machine learning web application** that predicts the species of an **Iris flower** based on its **sepal and petal dimensions**. The app is built using **Streamlit** and an **SVM (Support Vector Machine) model** trained on the **Iris dataset**. 
 
 **Key Highlights:**
 - **Developed and deployed a machine learning web application** using **Streamlit** to classify **Iris flower species** based on petal and sepal measurements.  
