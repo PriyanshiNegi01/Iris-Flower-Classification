@@ -7,7 +7,7 @@
 
 This project is a **machine learning web application** that predicts the species of an **Iris flower** based on its **sepal and petal dimensions**. The app is built using **Streamlit** and an **SVM (Support Vector Machine) model** trained on the **Iris dataset**.  
 
-### Dataset Overview  
+### About Dataset 
 
 The dataset consists of **four features** (attributes) measured from each iris flower:
 
@@ -17,9 +17,11 @@ The dataset consists of **four features** (attributes) measured from each iris f
 4. Petal Width (in centimeters) - The width of the petal, measured at its widest point.
 
 The dataset contains samples of three different **Iris Species**:
+
 ✔️ **Setosa**  
 ✔️ **Versicolor**  
 ✔️ **Virginica**  
+
 Each species has 50 samples, resulting in a total of 150 samples.
 
 ### 🔥 **Key Features**  
